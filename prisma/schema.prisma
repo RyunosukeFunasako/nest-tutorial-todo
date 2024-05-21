@@ -17,5 +17,5 @@ model Task {
     id Int @id @default(autoincrement())
     title String @unique
     due_on DateTime?
-    is_duone Boolean @default(false)
+    is_done Boolean @default(false)
 }
